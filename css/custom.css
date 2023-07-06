@@ -1,0 +1,213 @@
+/*Styling for events page*/
+i .fa-map-marker-alt{
+    color: #274C77 !important;
+}
+.img-fluid {
+    width: 100px;
+    height: 80px;
+  }
+.btn-rounded{
+    background-color: #274C77 !important;
+    border-color:#274C77 !important;
+}
+.nav-link:hover{
+    color: #274C77 !important;
+}
+.active-link{
+    color:#274C77 !important ;
+}
+  
+.custom-hero{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn.header-btn-collapse-nav{
+    background-color: #274C77 !important;
+    border-color:#274C77 !important ;
+}
+
+strong.d-block.text-color-primary{
+    color: #274C77 !important;
+}
+
+#about{
+    background-color: #8B8C89 !important;
+}
+/*Styling for the Landing Page*/
+
+section.our-insights{
+  background-color: #FFF !important;
+}
+h4 a.text-color-dark{
+  color: #274C77 !important;
+}
+h4 a.text-color-light{
+  color: #274C77 !important;
+}
+html .custom-btn-with-arrow-primary:after {
+	color: #274C77 !important;
+}
+a.text-color-primary{
+  color: #6096BA  !important;
+}
+.custom-list li:before {
+	background-color: #274C77 !important;
+}
+.side-menu-our-work .sort-source li a:before {
+	background-color: #274C77 !important;
+}
+#header .header-nav.header-nav-links nav > ul li:hover > a {
+  color: #274C77 !important;
+}
+#header .header-nav.header-nav-links nav > ul li:active > a {
+  color: #274C77 !important;
+}
+
+ .service-card.bg-color-tertiary{
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.service-card.bg-color-dark{
+  background-color: #274C77 !important;
+}
+
+.section-angled-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.header-image {
+  position: relative;
+  overflow: hidden;
+  margin-top: -100px;
+}
+
+
+.header-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.section-angled-content {
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  position: relative;
+  z-index: 3;
+}
+
+.container {
+  position: relative; 
+  z-index: 4; 
+}
+  h1.text-color-light{
+    color: #fff !important;
+    font-size: 70px;
+  }
+  h2.custom-title-with-icon{
+    color:#274C77!important;
+    font-size: 26px !important;
+  }
+  p.custom-font-tertiary{
+    text-align: center;
+  }
+  h4.text-color-primary{
+    color: #6096BA !important;
+  }
+  h4.text-color-light, h4.custom-text-10, 
+  h4.text-color-dark, h4.approach{
+    color: #000 !important;
+  }
+  h4.discover, h4.events-title{
+    color: #fff !important;
+  }
+  h4.card-title{
+    color: #fff !important;
+  }
+  h4.custom-text-9{
+    color: #FFF !important;
+  }
+  .service-card.bg-color-tertiary{
+    background-color: #6096BA !important;
+  }
+  .header-text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 20px;
+    color: #fff !important;
+   
+  }
+  
+  .header-text ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-text ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .header-text ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  #mainNav .nav-link:hover {
+    color: #6096BA !important;
+  }
+  
+
+  .text-color-hover-secondary{
+    color: #274C77 !important;
+  }
+  .btn-light{
+    background-color: #6096BA;
+    color: #fff;
+  }
+  a.text-color-hover-primary:hover {
+    color: #E7ECEF !important;
+  }
+  
+  
+section.get-in-touch{
+    background-color: #274C77 !important;
+    color: #000 !important;
+}
+p.mb-2.text-color-tertiary{
+    color:#6096BA !important ;
+}
+a.custom-btn-outline{
+    background-color: #6096BA !important;
+    border-color: #6096BA !important;
+}
+p.mb-0.text-start, a.text-color-hover-primary{
+    color: #E7ECEF !important;
+}
+#footer{
+    background-color: #000;
+}
+#header .header-nav-main.header-nav-main-mobile-dark nav > ul > li > a.active {
+  color: #274C77 !important;
+}
+
+
+

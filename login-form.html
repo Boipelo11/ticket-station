@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="https://kit.fontawesome.com/96eb2a99a0.js" crossorigin="anonymous"></script> -->
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="main">
+		<section class="signup">
+		  <div class="container">
+			<div class="signup-content">
+			  <div class="signup-form">
+				<h2 class="form-title">Log In</h2>
+				<div class="form-container">
+				  <form method="POST" class="register-form" id="login-form">
+					
+					<div class="form-group">
+					  <label for="email"><i class="zmdi zmdi-email"></i></label>
+					  <input type="email" name="email" id="email" placeholder="Your Email">
+					</div>
+					<div class="form-group">
+					  <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+					  <input type="password" name="pass" id="pass" placeholder="Password">
+					</div>
+                   
+					<div class="form-group form-button">
+					  <input type="submit" name="login" id="login" class="form-submit" value="Log In">
+					</div>
+				  </form>
+				  <div class="signup-image">
+					<figure><img src="./img/logo.png" class="img-fluid" width="400" height="300" alt="SummitCentral Logo"></figure>
+					<a href="" class="signup-image-link">Not A Member? Sign Up</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
+	  </div>
+	 
+	  
+	  <script>
+		class LoginForm {
+		  constructor(email, password) {
+			this.email = email;
+			this.password = password;
+		  }
+	  
+		  validate() {
+			if (!this.email.includes('@')) {
+			  return false; 
+			}
+	  
+			if (this.password.length < 8) {
+			  return false; 
+			}
+	  
+			return true; 
+		  }
+		}
+	  
+		const loginForm = document.getElementById('login-form');
+		loginForm.addEventListener('submit', function(event) {
+		  event.preventDefault(); 
+	  
+		  const emailInput = document.getElementById('email');
+		  const passwordInput = document.getElementById('pass');
+	  
+		  const email = emailInput.value;
+		  const password = passwordInput.value;
+	  
+		  const form = new LoginForm(email, password);
+		  if (form.validate()) {
+			window.location.replace('./events.html');
+		  } else {
+			errorMessage.textContent = 'Enter valid information'
+		  }
+		});
+	  </script>
+	  
+</body>
+</html>
